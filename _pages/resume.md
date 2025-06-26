@@ -31,7 +31,7 @@ sidebar:
 }
 </style>
 
-<div class="resume-section">
+<div class="resume-section" markdown="1">
 
 ### Nurzhan Abdrassilov
 Berkeley, CA · +1 541-252-3858 · [nurzhan@berkeley.edu](mailto:nurzhan@berkeley.edu) · [LinkedIn](https://www.linkedin.com/in/nurzhan-abdrassilov-496163215/)
