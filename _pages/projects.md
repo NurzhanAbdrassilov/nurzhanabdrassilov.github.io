@@ -10,18 +10,20 @@ sidebar:
 <style>
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Force 3 columns */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
   gap: 2rem;
-  margin-top: 2rem;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1600px; /* try 1400–1600px for comfort */
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
+  padding: 0 2rem;
 }
 
 .project-card {
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 1.25rem;
+  padding: 1.5rem;
   background-color: #fafafa;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease;
@@ -40,6 +42,7 @@ sidebar:
   margin-bottom: 0;
 }
 </style>
+
 
 
 <div class="projects-grid">
