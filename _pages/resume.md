@@ -1,62 +1,89 @@
 ---
-layout: archive
-title: "resume"
+layout: single
+title: "Resume"
 permalink: /resume/
 author_profile: false
+sidebar:
+  disable: true
 ---
 
-{% include base_path %}
+<style>
+.resume-section {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+.resume-section h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25rem;
+}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+.resume-section ul {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+.resume-section li {
+  margin-bottom: 0.25rem;
+}
+</style>
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<div class="resume-section">
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Nurzhan Abdrassilov
+Berkeley, CA · +1 541-252-3858 · [nurzhan@berkeley.edu](mailto:nurzhan@berkeley.edu) · [LinkedIn](https://www.linkedin.com/in/nurzhan-abdrassilov-496163215/)
+
+---
+
+#### Education
+
+**University of California, Berkeley**  
+BA in Computer Science, Aug 2022 – May 2026  
+GPA: 3.5/4.0  
+**Relevant Coursework**: CS189 (Machine Learning), CS162 (Operating Systems), CS161 (Security), CS61B/C/A, CS170, CS188, Data100, Math54, CS70
+
+---
+
+#### Skills
+
+- **Languages**: C, Java, Python, C++, Go, RISC-V, HTML/CSS/JS, SQL, Typescript, Scheme
+- **Tools**: Node.js, React, Supabase, Docker, Vim, Git, Valgrind, GDB, Logisim
+
+---
+
+#### Projects
+
+**PintOS OS** (C, Kernel Programming)  
+- Built a full single-core OS in C with interrupt handling and 27 system calls  
+- Implemented multithreading, priority scheduling, and custom synchronization primitives  
+
+**Secure File Sharing System** (Go, Crypto)  
+- Developed secure file sharing with user auth and file access in hostile environments  
+- Designed and implemented 8 core operations with cryptographic protections  
+
+**AIna** (Typescript, Express.js, MongoDB)  
+- AI-based accessibility checker for websites; real-time ADA compliance feedback  
+- ML-based suggestions for improving inclusivity and UX  
+
+**ClubHub** (Typescript, React, Supabase)  
+- CalHacks 10.0 project to browse, rate, and join Berkeley clubs  
+- Implemented full-stack app with real-time updates  
+
+**2D Game Engine** (Java)  
+- Procedural world generator with interactive actions and state saving  
+- Custom rooms, username interaction, and gameplay features  
+
+---
+
+#### Extracurricular
+
+**Central Asian Student Association** – Event Planning  
+- Organized large-scale cultural events and increased community participation  
+
+**Berkeley Event Services** – Operations Assistant  
+- Managed execution of 50+ campus events, ensuring smooth A/V and logistics  
+
+</div>
