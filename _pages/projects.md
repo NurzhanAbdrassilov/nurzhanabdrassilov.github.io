@@ -2,7 +2,7 @@
 layout: single
 title: "projects"
 permalink: /projects/
-author_profile: true
+author_profile: false
 sidebar:
   disable: true
 ---
