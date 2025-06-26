@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Resume"
+title: "resume"
 permalink: /resume/
 author_profile: false
 sidebar:
