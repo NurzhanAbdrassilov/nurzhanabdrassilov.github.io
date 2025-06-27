@@ -13,14 +13,14 @@ A list of core pages and blog posts on this site.
 
 <h2>Pages</h2>
 <ul>
-  {% assign allowed_pages = "projects,research,resume,blog" | split: "," %}
+  {% assign allowed_paths = "/projects/,/research/,/resume/,/sitemap/,/blog/" | split: "," %}
   {% for page in site.pages %}
-    {% assign page_slug = page.url | split: "/" | last %}
-    {% if allowed_pages contains page_slug %}
+    {% if allowed_paths contains page.url %}
       <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
+
 
 <h2>Projects</h2>
 <ul>
