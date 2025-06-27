@@ -24,9 +24,3 @@ sidebar:
     <p>Your browser does not support PDFs. <a href="/files/NurzhanAbdrassilovResume.pdf">Download the PDF</a>.</p>
   </object>
 </div>
-
-<p style="text-align:center; margin-top:1rem;">
-  <a href="/files/NurzhanAbdrassilovResume.pdf" class="btn btn--primary" target="_blank">
-    ⬇️ Download PDF
-  </a>
-</p>
