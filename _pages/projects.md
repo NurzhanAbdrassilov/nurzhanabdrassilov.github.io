@@ -9,7 +9,7 @@ sidebar:
 
 <style>
 .page__inner-wrap {
-  max-width: 100% !important;
+  max-width: none !important;
   padding: 0 !important;
 }
 
@@ -17,34 +17,12 @@ sidebar:
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  width: 100%;
   max-width: 1600px;
   margin: 2rem auto 0 auto;
   padding: 0 2rem;
 }
-
-.project-card {
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 1.5rem;
-  background-color: #fafafa;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-}
-
-.project-card h3 {
-  margin-top: 0;
-}
-
-.project-card ul {
-  padding-left: 1.2rem;
-  margin-bottom: 0;
-}
 </style>
+
 
 
 
