@@ -13,7 +13,7 @@ A list of core pages and blog posts on this site.
 
 <h2>Pages</h2>
 <ul>
-  {% assign allowed_pages = "projects,research,resume,sitemap,blog" | split: "," %}
+  {% assign allowed_pages = "projects,research,resume,blog" | split: "," %}
   {% for page in site.pages %}
     {% assign page_slug = page.url | split: "/" | last %}
     {% if allowed_pages contains page_slug %}
@@ -38,9 +38,3 @@ A list of core pages and blog posts on this site.
   {% endfor %}
 </ul>
 
-<h2>Research</h2>
-<ul>
-  {% for item in site.research %}
-    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-  {% endfor %}
-</ul>
