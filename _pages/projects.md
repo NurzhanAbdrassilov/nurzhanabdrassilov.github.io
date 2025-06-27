@@ -8,10 +8,9 @@ sidebar:
 ---
 
 <style>
-.page__content {
+.page__inner-wrap {
   max-width: 100% !important;
   padding: 0 !important;
-  margin: 0 auto !important;
 }
 
 .projects-grid {
@@ -46,6 +45,7 @@ sidebar:
   margin-bottom: 0;
 }
 </style>
+
 
 
 
