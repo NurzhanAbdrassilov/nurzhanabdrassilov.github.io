@@ -13,9 +13,16 @@ sidebar:
   max-width: 900px;
   height: 1100px;
   margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
   overflow: hidden;
+}
+
+.page__content {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 </style>
 
