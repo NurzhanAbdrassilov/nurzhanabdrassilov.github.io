@@ -8,15 +8,18 @@ sidebar:
 ---
 
 <style>
+.page__content {
+  max-width: 100%;
+  padding: 0;
+}
+
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   width: 100%;
-  max-width: 1600px; /* try 1400–1600px for comfort */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
+  max-width: 1600px;
+  margin: 2rem auto 0 auto;
   padding: 0 2rem;
 }
 
@@ -42,6 +45,7 @@ sidebar:
   margin-bottom: 0;
 }
 </style>
+
 
 
 
