@@ -22,7 +22,7 @@ sidebar:
 
 <div class="pdf-container">
   <iframe
-    src="/files/resume.pdf#toolbar=0&navpanes=0&scrollbar=0"
+    src="/files/NurzhanAbdrassilovResume.pdf#toolbar=0&navpanes=0&scrollbar=0"
     width="100%"
     height="100%"
     style="border:none;">
@@ -30,7 +30,7 @@ sidebar:
 </div>
 
 <p style="text-align:center; margin-top:1rem;">
-  <a href="/files/resume.pdf" class="btn btn--primary" target="_blank">
+  <a href="/files/NurzhanAbdrassilovResume.pdf" class="btn btn--primary" target="_blank">
     ⬇️ Download PDF
   </a>
 </p>
