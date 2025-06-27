@@ -8,25 +8,21 @@ sidebar:
 ---
 
 <style>
-/* keeps the PDF responsive and centered */
 .pdf-container {
   width: 100%;
-  max-width: 900px;     /* change if you want wider/narrower */
+  max-width: 900px;
+  height: 1100px;
   margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  height: 1100px;       /* page height in px; adjust as needed */
 }
 </style>
 
 <div class="pdf-container">
-  <iframe
-    src="/files/NurzhanAbdrassilovResume.pdf#toolbar=0&navpanes=0&scrollbar=0"
-    width="100%"
-    height="100%"
-    style="border:none;">
-  </iframe>
+  <object data="/files/NurzhanAbdrassilovResume.pdf" type="application/pdf" width="100%" height="100%">
+    <p>Your browser does not support PDFs. <a href="/files/NurzhanAbdrassilovResume.pdf">Download the PDF</a>.</p>
+  </object>
 </div>
 
 <p style="text-align:center; margin-top:1rem;">
