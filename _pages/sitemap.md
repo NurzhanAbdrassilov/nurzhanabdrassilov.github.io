@@ -15,7 +15,7 @@ A list of core pages and blog posts on this site.
 <ul>
   {% assign page_map = site.pages | index_by: "url" %}
 
-  {% assign ordered_paths = "/about me/,/projects/,/research/,/resume/,/blog/" | split: "," %}
+  {% assign ordered_paths = "/,/projects/,/research/,/resume/,/blog/" | split: "," %}
 
   {% for path in ordered_paths %}
     {% assign page = page_map[path] %}
@@ -24,6 +24,7 @@ A list of core pages and blog posts on this site.
     {% endif %}
   {% endfor %}
 </ul>
+
 
 
 
