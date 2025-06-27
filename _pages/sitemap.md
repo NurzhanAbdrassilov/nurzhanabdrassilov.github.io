@@ -13,13 +13,18 @@ A list of core pages and blog posts on this site.
 
 <h2>Pages</h2>
 <ul>
-  {% assign allowed_paths = "/projects/,/research/,/resume/,/sitemap/,/blog/" | split: "," %}
-  {% for page in site.pages %}
-    {% if allowed_paths contains page.url %}
+  {% assign page_map = site.pages | index_by: "url" %}
+
+  {% assign ordered_paths = "/about me/,/projects/,/research/,/resume/,/blog/" | split: "," %}
+
+  {% for path in ordered_paths %}
+    {% assign page = page_map[path] %}
+    {% if page %}
       <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
+
 
 
 <h2>Projects</h2>
