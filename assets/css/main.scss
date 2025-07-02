@@ -41,24 +41,27 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
-.projects-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 2rem;
+.projects-page-wrapper {
   max-width: 1000px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-.projects-grid .page__title {
-  flex: 0 1 100%;
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 0 0 1rem 0;
-  text-align: left;
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-top: 1rem;
 }
 
+.projects-grid .page__title {
+  flex: 0 1 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 1rem 0;
+}
 
 .project-card {
   flex: 0 1 calc(33.333% - 2rem);
@@ -82,28 +85,11 @@
   margin-top: 0;
   font-size: 1.2rem;
 }
-.projects-page-wrapper h1.page__title {
-  text-align: left;
-  margin-left: 0;
-}
 
 .project-card p {
   font-size: 0.95rem;
   line-height: 1.4;
 }
-
-.projects-page-wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.projects-page-wrapper .page__title {
-  text-align: left !important;
-  margin-left: 0 !important;
-}
-
-
 
 @media screen and (max-width: 960px) {
   .project-card {
@@ -116,6 +102,7 @@
     flex: 0 1 100%;
   }
 }
+
 
 
 
