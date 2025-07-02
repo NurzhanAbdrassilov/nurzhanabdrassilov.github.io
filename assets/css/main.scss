@@ -79,6 +79,17 @@
   line-height: 1.4;
 }
 
+.projects-page-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.projects-page-wrapper .page__title {
+  text-align: center;
+}
+
+
 @media screen and (max-width: 960px) {
   .project-card {
     flex: 0 1 calc(50% - 2rem);
