@@ -13,22 +13,23 @@ sidebar:
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
 .project-card {
-  flex: 0 1 300px;
+  flex: 0 1 calc(33.333% - 2rem); /* 3 per row max */
+  max-width: 300px;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: #fafafa;
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.2s ease;
 }
 
 .project-card:hover {
@@ -45,11 +46,19 @@ sidebar:
   line-height: 1.4;
 }
 
-.project-card ul {
-  padding-left: 1.2rem;
-  margin-bottom: 0;
+@media screen and (max-width: 960px) {
+  .project-card {
+    flex: 0 1 calc(50% - 2rem); /* 2 per row */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-card {
+    flex: 0 1 100%; /* 1 per row */
+  }
 }
 </style>
+
 
 
 
