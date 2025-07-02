@@ -41,9 +41,13 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
-.page__content--wide {
-  max-width: 1600px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 2rem;
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1200px;      // Adjust as needed
+  margin: 0 auto;         // This centers the grid horizontally
+  padding: 0 1rem;        // Optional: Prevents content from touching the edges
 }
+
