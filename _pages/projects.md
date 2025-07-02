@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: archive
 title: "projects"
 permalink: /projects/
-author_profile: false   
+author_profile: true 
 sidebar:
   disable: true
 ---
