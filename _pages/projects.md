@@ -22,10 +22,10 @@ sidebar:
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* dynamic resizing */
   gap: 2rem;
   max-width: 1600px;
-  margin: 2rem auto 0 auto;
+  margin: 2rem auto;
   padding: 0 2rem;
 }
 
@@ -36,6 +36,7 @@ sidebar:
   background-color: #fafafa;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease;
+  width: 100%;
 }
 
 .project-card:hover {
