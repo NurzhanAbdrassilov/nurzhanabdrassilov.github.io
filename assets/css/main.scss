@@ -92,6 +92,11 @@
 }
 
 .page__title {
-  text-align: center;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+  width: 100%;
 }
+
 
