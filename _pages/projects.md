@@ -8,28 +8,27 @@ sidebar:
 ---
 
 <style>
-.page__content {
-  max-width: 100% !important;  /* override narrow layout */
-  padding: 0;
-}
-
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 2rem auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .project-card {
+  flex: 0 1 300px;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 2rem;
   background-color: #fafafa;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
   transition: transform 0.2s ease;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project-card:hover {
@@ -38,6 +37,12 @@ sidebar:
 
 .project-card h3 {
   margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 .project-card ul {
@@ -51,16 +56,16 @@ sidebar:
 
 
 
-<div class="page__content--wide">
-  <div class="projects-grid">
-    {% for project in site.projects %}
-    <div class="project-card">
-      <h3>{{ project.title }}</h3>
-      <p>{{ project.excerpt | markdownify }}</p>
-      <a href="{{ project.url | relative_url }}">Read more</a>
-    </div>
-    {% endfor %}
+
+<div class="projects-grid">
+  {% for project in site.projects %}
+  <div class="project-card">
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.excerpt | markdownify }}</p>
+    <a href="{{ project.url | relative_url }}">Read more</a>
   </div>
+  {% endfor %}
 </div>
+
 
 
