@@ -47,9 +47,18 @@
   justify-content: flex-start;
   gap: 2rem;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 0 1rem;
 }
+
+.projects-grid .page__title {
+  flex: 0 1 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+  text-align: left;
+}
+
 
 .project-card {
   flex: 0 1 calc(33.333% - 2rem);

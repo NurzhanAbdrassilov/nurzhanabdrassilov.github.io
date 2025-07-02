@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: default
 title: "projects"
 permalink: /projects/
 author_profile: false 
@@ -8,6 +8,8 @@ sidebar:
 ---
 
 <div class="projects-grid">
+  <h1 class="page__title">projects</h1>
+
   {% for project in site.projects %}
   <div class="project-card">
     <h3>{{ project.title }}</h3>
