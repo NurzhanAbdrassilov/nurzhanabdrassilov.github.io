@@ -7,9 +7,9 @@ sidebar:
   disable: true
 ---
 
-<div class="projects-page-wrapper">
-  <h1 class="page__title">{{ page.title }}</h1>
+<h1 class="page__title">projects</h1>
 
+<div class="projects-page-wrapper">
   <div class="projects-grid">
     {% for project in site.projects %}
     <div class="project-card">
