@@ -8,21 +8,14 @@ sidebar:
 ---
 
 <style>
-.page__inner-wrap {
-  max-width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
 .page__content {
-  max-width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  max-width: 100% !important;  /* override narrow layout */
+  padding: 0;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* dynamic resizing */
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   max-width: 1600px;
   margin: 2rem auto;
