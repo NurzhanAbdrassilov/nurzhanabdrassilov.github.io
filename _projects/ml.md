@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Projects – CS 189"
+title: "Machine Learning Projects"
 layout: single
 excerpt: >
   Developed machine learning models on real-world datasets (MNIST, Spam, Titanic, Wine, CIFAR) using Python, NumPy, PyTorch, and scikit-learn. Implemented SVMs, GDA, logistic regression, decision trees, random forests, and neural networks from scratch.
