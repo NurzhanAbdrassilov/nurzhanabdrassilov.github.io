@@ -4,8 +4,6 @@ excerpt: "AIna is your AI-powered co-pilot for visual web accessibility—analyz
 collection: projects
 ---
 
-![Aina Preview](https://user-images.githubusercontent.com/your-image-path/aina-preview.png)
-
 ## Inspiration
 
 Over 2.2 billion people globally live with a visual or cognitive disability, yet 96.3% of the top 1 million websites still fail basic accessibility checks (WebAIM, 2024). From low-contrast text and unlabeled elements to flashing visuals that can trigger seizures, accessibility is still an afterthought on most of the web.
