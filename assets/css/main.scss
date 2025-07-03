@@ -100,6 +100,31 @@
     flex: 0 1 100%;
   }
 }
+.project-card-preview {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem 0;
+}
+
+.project-card-preview .project-tag {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: fit-content;
+}
+
+.project-card-preview p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
 
 
 
