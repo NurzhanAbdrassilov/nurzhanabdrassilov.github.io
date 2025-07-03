@@ -1,5 +1,6 @@
 ---
 title: "AIna – Your Intelligent Ally for an Accessible Web"
+layout: single 
 excerpt: "AIna is your AI-powered co-pilot for visual web accessibility—analyzing websites, grading compliance, and guiding improvements to build a safer, more inclusive internet for everyone. <br/><img src='/images/aina.png'>"
 collection: projects
 ---
