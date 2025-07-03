@@ -1,11 +1,14 @@
 ---
-title: "AIna – Your Intelligent Ally for an Accessible Web"
-layout: single
+title: "AIna – AI-powered Web Accessibility Platform"
 excerpt: |
-  Built a full-stack AI tool for web accessibility audits. Uses Gemini Flash 2.0 to scan websites, assign WCAG-based scores, and generate actionable feedback.
-  <br/>
-  <img src='/images/aina.png' style='width:100%; max-width:280px; border-radius:10px; margin-top:10px; display:block;'>
+  <div class="project-card-preview">
+    <div class="project-tag">AIna - your intelligent ally for accessible web</div>
+    <p>
+      Built at SFHacks 2025, AIna is an AI-powered web accessibility platform that scans websites, analyzes HTML/CSS using Gemini Flash 2.0, and provides a 7-point WCAG-based accessibility grade with actionable feedback. Developed with React, TypeScript, Express, AWS and MongoDB Atlas, it features a public rankings dashboard, an accessible UI with high-contrast mode, and plans for blockchain-based compliance certificates.
+    </p>
+  </div>
 collection: projects
+layout: single
 ---
 
 - Built a full-stack AI-powered accessibility scanner using React, Node.js, and Gemini Flash 2.0  
